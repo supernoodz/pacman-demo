@@ -8,6 +8,8 @@ metadata:
   annotations:
     apps.open-cluster-management.io/git-path: pacman
     apps.open-cluster-management.io/git-branch: green
+    apps.open-cluster-management.io/reconcile-option: replace
+    apps.open-cluster-management.io/reconcile-rate: high
 spec:
   channel: pacman/pacman-ch
   placement:
