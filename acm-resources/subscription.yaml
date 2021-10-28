@@ -7,7 +7,7 @@ metadata:
     app: pacman-app
   annotations:
     apps.open-cluster-management.io/git-path: pacman
-    apps.open-cluster-management.io/git-branch: green
+    apps.open-cluster-management.io/git-branch: main
     apps.open-cluster-management.io/reconcile-option: replace
     apps.open-cluster-management.io/reconcile-rate: high
 spec:
