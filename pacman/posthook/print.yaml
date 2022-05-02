@@ -2,10 +2,9 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-    name: hive-cluster-gitrepo
+    name: pacman-posthook
 spec:
-    tower_auth_secret: testbsu
+#    tower_auth_secret: testbsu
     job_template_name: print
     extra_vars:
-      variable1: value1
-      variable2: value2
+      phase: "posthook for Pacman"
