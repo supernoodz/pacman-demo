@@ -5,6 +5,4 @@ metadata:
     name: pacman-prehook
 spec:
 #    tower_auth_secret: testbsu
-    job_template_name: print-minimal
-    extra_vars:
-      phase: "prehook for Pacman"
+    job_template_name: Demo Job Template
